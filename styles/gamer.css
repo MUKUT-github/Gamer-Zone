@@ -226,78 +226,211 @@ img{
     left: -100px;
 }
 
-.action{
-    display: flex;
-    width: 50px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 200px;
-}
-.adventure{
-    display: flex;
-    width: 50px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 200px;
-}
-.arcade{
-    display: flex;
-    width: 50px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 200px;
-}
-.educational{
-    display: flex;
-    width: 50px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 200px;
-}
-.word{
-    display: flex;
-    width: 50px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 200px;
-}
-.role{
-    display: flex;
-    width: 50px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 200px;
-}
-.music{
-    display: flex;
-    width: 50px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 200px;
-}
-.puzzle{
-    display: flex;
-    width: 50px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 200px;
-}
-.strategy{
-    display: flex;
-    width: 50px;
-    height: 80px;
-    flex-shrink: 0;
-    margin-top: 200px;
-}
 .icon-btn{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-evenly;   
+    justify-content: center;
+    width: 100%;
+    height:427px;
+    justify-content: space-evenly; 
 }
 .icon-btn:hover{
     text-shadow: #F948B2;
 }
+.action{
+    /* border-color: none; */
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0b0223;
+    font-size: 20px;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.action:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5);
+    height: 80px;
+    flex-shrink: 0;
+}
+.adventure{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0b0223;
+    font-size: 20px;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.adventure:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5);
+    height: 80px;
+    flex-shrink: 0;
+}
+.arcade{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0b0223;
+    font-size: 20px;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.arcade:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5);
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.educational{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0b0223;
+    font-size: 20px;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.educational:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5);
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.word{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0b0223;
+    font-size: 20px;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.word:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5);
+    height: 80px;
+    flex-shrink: 0;
+}
+.role{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0b0223;
+    font-size: 20px;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.role:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5);
+    height: 80px;
+    flex-shrink: 0;
+}
+.music{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0b0223;
+    font-size: 20px;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.music:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5);
+    height: 80px;
+    flex-shrink: 0;
+}
+.puzzle{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0b0223;
+    font-size: 20px;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.puzzle:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5);
+    height: 80px;
+    flex-shrink: 0;
+}
+.strategy{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0b0223;
+    font-size: 20px;
+    font-style: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.strategy:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5);
+    height: 80px;
+    flex-shrink: 0;
+}
+
 
 /* footer section starts */
 .footer-content{
@@ -405,7 +538,4 @@ img{
     }
 }
 
-@media screen and (max-width:400px) {
-    
-}
 
